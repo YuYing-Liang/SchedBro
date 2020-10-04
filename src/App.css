@@ -1,0 +1,26 @@
+.event, .dynamic-event {
+  margin: 5px 0px;
+  border-top: 1px solid gray;
+}
+
+.event {
+  height: 75px;
+  position: relative;
+}
+
+.schedule {
+  width: 90%;
+  height: 1000px;
+  overflow: auto;
+  margin: 2.5rem auto;
+}
+
+.event .card {
+  margin: 5px 0px;
+}
+.event .card-body{
+  padding: 1.5rem 0.5rem 0.5rem 0.75rem;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}

@@ -1,0 +1,30 @@
+{
+    "time_bounds": [
+        {
+            "type": "select",
+            "name": "start_time",
+            "des": "When do you want to start your day?",
+            "options": [
+                "4:00", "4:30", "5:00", "5:30", "6:00", "6:30", "7:00", "7:30", "8:00", "8:30", "9:00", "9:30", "10:00", "10:30", "11:00", "11:30"
+            ]
+        },
+        {
+            "type": "select",
+            "name": "end_time",
+            "des": "When do you end your day?",
+            "options": [
+                "17:00", "17:30", "18:00", "18:30", "19:00", "19:30", "20:00", "20:30", "21:00", "21:30", "22:00", "22:30", "23:00", "23:30", "24:00", "24:30", "1:00", "1:30"
+            ]
+        }
+    ],
+    "break_time": [
+        {
+            "type": "select",
+            "name": "break_time",
+            "des": "What's your optimal break time in minutes? (This isn't fixed but will give us somewhere to start)",
+            "options": [
+                "5", "10", "15", "20", "30", "45", "60"
+            ]
+        }
+    ]
+}
